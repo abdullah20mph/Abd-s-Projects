@@ -1,0 +1,147 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main{
+    display: flex;
+}
+.mainPage{
+    display: flex;
+    justify-content: center;
+}
+.sidebar-first{
+    width: 15%;
+    height: 100vh;
+    background-color: #0a0124;
+    color: gray;
+}
+.mainPage{
+    width: 80%;
+    background-color: brown;
+}
+.sidebar-second{
+    width: 25%;
+    background-color: aquamarine;
+}
+.name-plan{
+padding: 10px 10px;}
+.username{
+    display: flex;
+    margin-left: 10px;
+}
+#name{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+#plan{
+    font-size: small;
+}
+#icon{
+    height: 10px;
+    font-size: 40px;
+}
+.sidebar-interior{
+    margin-top: 10px;
+}
+#count{
+    border: none;
+    border-radius: 10px;
+}
+#prem{
+    width: 89%;
+    border: none;
+    border-radius: 40px;
+    padding: 12px 30px;
+    background-color: #ffffff;
+    color: blue;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+/* Remove bullets from all unordered lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Optional: If you want to target specific lists, you can use class names */
+.task-list, .myweek {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+.My-Lists{
+    font-weight: bold;
+    font-size: large;
+}
+.tag-one{
+    font-weight: bold;
+    font-size: large;
+}
+.appsidebar-one,.appsidebar-two,.appsidebar-three{
+    margin-top: 20px;
+}
+.main-box{
+    height: 102px;
+    width: 106%;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    background-color: gray;
+}
+.date{
+    height: 83px;
+    width: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+#day,#month{
+    font-weight: bold;
+    font-size: 92%;
+}
+#day-number{
+    font-size: 42px;
+    font-weight: bold;
+}
+#connect-one,#connect-two{
+    font-size: 10px;
+    gap: 10px;
+}
+#text-main{
+    font-size: 20px;
+}
+.new-task{
+    height: 70px;
+    width: 106%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+}
+.secondary-box{
+    margin-top: 42px;
+    margin-left: -12px;
+}
