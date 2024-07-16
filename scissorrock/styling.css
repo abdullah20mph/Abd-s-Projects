@@ -1,0 +1,61 @@
+.heading{
+    text-align: center;
+    background-color: rgb(35, 35, 112);
+    color: white;
+    padding: 10px 20px;
+    margin-top: -8px;
+}
+.text{
+    /* color: white; */
+}
+.rps{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 10px;
+}
+.scissor{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    border: black solid;
+}
+.rock{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    border: black solid;
+}
+.paper{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    border: black solid;
+}
+.score{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+#play{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(179, 179, 179);
+    margin-top: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-radius: 10px;
+    box-shadow: 10px 10px black ;
+}
